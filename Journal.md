@@ -6,3 +6,6 @@ This step outlines the base class and the template method that will be used. Thi
 
 Phase 2-
 I feel like the flow is more top down that you would normal have with inheritance the magic is mostly happening on the abstract class insted of the sub-class. When the generate is called, it is calling the other 3 methods in order, which could all be implemnetations on the sub-class side by this main method is being run within the super class. I don't feel it is tricky, if I had to plan this from sctratch I can see how it might be alittle confusing which part is delgated to the base class and what part is sub, but it's pretty clear here.
+
+Phase 3-
+I can see how adding a boolean check like this you can make it to where parts of the template methods logic can be made to fire or not depending on the sub-class implementation. I think this seems more useful after tools like this to make parts of the method able to be switched on and off.

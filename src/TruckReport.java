@@ -4,5 +4,9 @@ public class TruckReport extends VehicleReport{
 	protected void formatReport(){
 	    System.out.println("Formating report for heavy cargo.");
 	}
+	@Override
+	protected boolean shouldCheckMaintenance(){
+	    return true;
+	}
 
 }

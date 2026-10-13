@@ -9,3 +9,6 @@ I feel like the flow is more top down that you would normal have with inheritanc
 
 Phase 3-
 I can see how adding a boolean check like this you can make it to where parts of the template methods logic can be made to fire or not depending on the sub-class implementation. I think this seems more useful after tools like this to make parts of the method able to be switched on and off.
+
+Phase 4-
+testing came back clear. I was thinking about making things more dynamic through injecting values into the methods. With having hooks that return values these values can be set on a per sub-class basis and I think thats pretty cool. It definetely gives more power to the pattern.
